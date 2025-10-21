@@ -1,0 +1,82 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #eee;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	max-height: 200px;
+	max-width: 800px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+
+#app {
+	width: 800px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.card {
+	display: flex;
+	text-overflow: ellipsis;
+	background-color: rgba(20, 20, 20, 0.7);
+	border-radius: 10px 0;
+	padding: 20px;
+	gap: 20px;
+	max-height: min-content;
+	height: 160px;
+	overflow: hidden;
+
+	.image {
+		height: 100%;
+	}
+
+	.titles {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 100%;
+		white-space: nowrap;
+		
+		.artist {
+			text-overflow: ellipsis;
+			overflow: hidden;
+			font-size: 2rem;
+		}
+
+		.name {
+			text-overflow: ellipsis;
+			overflow: hidden;
+			font-size: 3rem;
+		}
+	}
+
+	img {
+		height: 100%;
+	}
+}
+
+section {
+	margin-top: 5rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 1.5rem;
+}
