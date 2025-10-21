@@ -12,6 +12,7 @@ This tracker doesn't have the intelligence yet to know if a song is still playin
 - First you need [Tuna](https://obsproject.com/forum/resources/tuna.843/) setup in OBS.
 - Enable the Tuna server output on port 1608
 - `git clone git@github.com:Pefouk/tuna-song-tracker-preact.git`
+- `cd tuna-song-tracker-preact`
 - `npm install`
 - `npm run build`
 - `npm run preview`
@@ -21,6 +22,7 @@ This tracker doesn't have the intelligence yet to know if a song is still playin
 - First you need [Tuna](https://obsproject.com/forum/resources/tuna.843/) setup in OBS.
 - Enable the Tuna server output on port 1608
 - `git clone git@github.com:Pefouk/tuna-song-tracker-preact.git`
+- `cd tuna-song-tracker-preact`
 - `npm install`
 - `npm run dev`
 - Server will be up and running at `http://localhost:4173`

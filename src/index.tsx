@@ -42,14 +42,13 @@ export function App() {
 
 
 	return (
-		data.current && (
-			<RenderData {...data?.current} />
+		data?.current && (
+			<RenderData {...data.current} />
 		)
 	);
 }
 
 export function RenderData({ title, artists, cover_path }: TData) {
-	useEffect(() => console.log('huh'), [title]);
 	return (
 		<div class="card">
 			<div class="image">
