@@ -1,7 +1,7 @@
 # Tuna Song Tracker in Preact - TSTP
 
 ## Simple app made in Preact to display the latest listened song with [Tuna](https://obsproject.com/forum/resources/tuna.843/)
-<img width="914" height="289" alt="image" src="https://github.com/user-attachments/assets/bd7da308-e6e7-4525-bcc7-0ae68871ee56" />
+<img width="838" height="250" alt="image" src="https://github.com/user-attachments/assets/172dbfc1-a642-419e-8ac3-f34511552839" />
 
 ## Current status
 This project was made in like 3 hours over two separated days using Vite create-preact.  
